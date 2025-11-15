@@ -8,7 +8,7 @@
 
 This directory contains scripts and configuration for training YOLOv11 models to recognize facial emotions. This is **Step 2** of the emotion detection workflow.
 
-## 🎯 What This Project Does
+## What This Project Does
 
 The `model-training.py` script teaches a YOLOv11 model to recognize emotions by using **transfer learning** — starting with a pre-trained model and fine-tuning it with emotion detection data.
 
@@ -45,10 +45,10 @@ Step 4: Test & Save the Best
 ### Why Transfer Learning?
 
 Training from scratch would take weeks on a regular computer. Transfer learning:
-- ✅ Reuses knowledge from 1M+ images
-- ✅ Trains in minutes/hours (not days)
-- ✅ Needs fewer examples (thousands vs millions)
-- ✅ Works great for specialized tasks
+- Reuses knowledge from 1M+ images
+- Trains in minutes/hours (not days)
+- Needs fewer examples (thousands vs millions)
+- Works great for specialized tasks
 
 ### Career Connection: Machine Learning Engineer
 
